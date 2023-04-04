@@ -29,7 +29,14 @@
       "main"
     ]
   },
-  "files": ["bin/*", "cmd/*", "data/*", "templates/*", "utils/*", "README.md"],
+  "files": [
+    "bin/*",
+    "cmd/*",
+    "data/*",
+    "templates/*",
+    "utils/*",
+    "README.md"
+  ],
   "devDependencies": {
     "inquirer-test": "^2.0.1",
     "rome": "^11.0.0"

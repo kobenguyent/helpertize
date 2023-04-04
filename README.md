@@ -8,6 +8,8 @@ You are looking for a fast an easy way to create a custom helper for CodeceptJS.
 - Linter/Formatter your helper with Rome
 - Publishment to NPM
 
+NPM package: <https://www.npmjs.com/package/helpertize>
+
 # How to install
 
 ````
