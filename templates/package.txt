@@ -1,0 +1,49 @@
+{
+  "name": "codeceptjs-{{CustomHelper}}",
+  "version": "1.0.0",
+  "description": "{{CustomHelper}} for Codeceptjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "rome check src",
+    "lint:fix": "rome check src --apply-suggested",
+    "prepare": "husky install",
+    "code:format": "rome format src --write",
+    "tsc": "tsc -d"
+  },
+  "keywords": [
+    "codeceptjs",
+    "{{CustomHelper}}"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@codeceptjs/helper": "^2.0.1",
+    "codeceptjs": "^3.4.1"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
+    "rome": "^11.0.0",
+    "typescript": "^4.9.5"
+  },
+  "files": [
+    "dist/*",
+    "README.md"
+  ],
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:{{githubUsername}}/codeceptjs-{{CustomHelper}}.git"
+  },
+  "bugs": {
+    "url": "https://github.com/{{githubUsername}}/codeceptjs-{{CustomHelper}}/issues"
+  },
+  "homepage": "https://github.com/{{githubUsername}}/codeceptjs-{{CustomHelper}}#readme",
+  "author": "{{githubUsername}}",
+  "lint-staged": {
+    "src": "rome format src --write"
+  }
+}

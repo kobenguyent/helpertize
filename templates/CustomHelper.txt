@@ -1,0 +1,7 @@
+const { Helper } = require("codeceptjs");
+
+class {{CustomHelper}} extends Helper {
+    // your functions
+}
+
+export = {{CustomHelper}}
